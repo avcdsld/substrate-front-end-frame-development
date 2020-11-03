@@ -1,7 +1,19 @@
 {
   "CUSTOM_TYPES": {
     "Address": "AccountId",
-    "LookupSource": "AccountId"
+    "LookupSource": "AccountId",
+    "CurrencyId": {
+      "_enum": [
+        "Native",
+        "DOT",
+        "BTC"
+      ]
+    },
+    "Amount": "i128",
+    "ClassId": "u64",
+    "TokenId": "u64",
+    "ClassData": "u32",
+    "TokenData": "u32",
   },
   "PROVIDER_SOCKET": "ws://127.0.0.1:9944"
 }
